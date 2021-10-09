@@ -1,23 +1,5 @@
 <?php
     
-    /*
-    echo "merhaba PHP<br>"; //<br> satır altı
-    echo "merhaba PHP"."<br>"; //aynı şekilde . birleştirmeye yarıyor
-    phpinfo();
-    define('site_adi','phpr.org');
-    echo site_adi;
-    $sayi = 25; // değer atama
-    define('birth_day','1998'); //değişken tanımlama
-    echo birth_day;
-    sqrt(16); //karekök func
-    pow(4,2); //kat alma
-    echo strlower($degisken_name); //hepsi küçük harf
-    echo strupper($degisken_name); //hepsi büyük harf
-    echo ucwords($degisken_name); //ilk harf büyük harf
-    echo strlen(utf8_decode($degisken_name)); //dizi içeriğinde boşluklar ile beraber eleman sayısı
-    echo str_replace("search_kelime","replace_kelime",$degisken_name); //stringte belirli kelimeyi değiştir.
-    */
-    
     //Değişken tanımlama yöntemleri
     $name = "Mustafa Kemal";
     $surname = "DEMİR";
