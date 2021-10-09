@@ -2,16 +2,21 @@
 
     /*
     phpinfo();
+    echo __FILE__; //dosyanın bulunduğu dizini bastırır.
+    echo __LINE__; bukodun kaçıncı satırda oluğu.
+    echo PHP_VERSION; //php version
+
+    rand (1,100); // rastgale sayı üretme.
 
     echo "merhaba PHP<br>"; //<br> satır altı.
     echo "merhaba PHP"."<br>"; //aynı şekilde . birleştirmeye yarıyor.
 
-    define('site_adi','phpr.org');
+    define('site_adi','phpr.org'); // sabit değişken tanımlama.
 
     echo site_adi;
     $sayi = 25; // değer atama.
 
-    define('birth_day','1998'); //değişken tanımlama.
+    define('birth_day','1998'); // sabit değişken tanımlama.
     echo birth_day;
     
     sqrt(16); //karekök func.
@@ -31,10 +36,63 @@
     echo max($dizi); //en büyük eleman.
     echo min($dizi); //en küçük eleman.
     in_array(20,$dizi); // dizide aranan elaman kaç tane var?
-    implode ("/",$dizi); //dizi elemanlarını belirtilen araç ile birleştirir.
+    implode ("/",$dizi); //dizi elemanlarını belirtilen araç ile birleştirir.    
+
+    ==,<,>,<=,>=,!=,and,or (karşılaştırma kipleri)
+    if ($sorgu_deger == 0) {} // karşılaştırma koşulu
+    else if ($sorgu_deger == 0) {}
+    else {}
+
+    switch($deger)
+    {
+        case 'value1' :
+            ...
+
+            break;
+        
+        case 'value2' :
+            ...
+            
+            break;
+
+        default :
+            ...
+
+    }
+
+    for ($i = 0 ; $i<50 ; $i++)
+    {
+        ...
+    }
+
+    while (koşul)
+    {
+
+    }
+
+    foreach($dizi as $key => $value) 
+    {
+        echo "Dizinin $key . elemanı $value 'dir <br>" ;
+    }
+
+    do
+    {
+
+    }while (condition);
+    {
+
+    }
+
+    header ('Location : yönlendirilecek php sayfası url si');
+
+    <?php include 'header.php'; ?> // sayfaları ilave header ekleme (kütüphane ekleme) html kodlarını templateden ayırmaya yarar.
+    <?php include 'footer.php'; ?> // sayfaları ilave footer ekleme (kütüphane ekleme).
+    <?php include 'sidebar.php'; ?> // sayfaları ilave sidebar ekleme (kütüphane ekleme).
 
 
 
+
+    
     */
 
 ?>
