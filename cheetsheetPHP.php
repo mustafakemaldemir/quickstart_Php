@@ -89,7 +89,53 @@
     <?php include 'footer.php'; ?> // sayfaları ilave footer ekleme (kütüphane ekleme).
     <?php include 'sidebar.php'; ?> // sayfaları ilave sidebar ekleme (kütüphane ekleme).
 
+------------------------------FORM-----------------------------------------------------------------------
+    <table cellpadding = "5" cellspacing = "5">
 
+    <tr>
+
+    <td>Name</td>
+    <td> <input type = "text" name ="name"/> </td>
+
+    </tr>
+
+    <tr>
+
+    <td>Surname</td>
+    <td> <input type = "text" name ="surname"/> </td>
+
+    </tr>
+
+    <tr>
+
+    <td>Message</td>
+    <td> <textarea cols="30" rows="5" name="message"></textarea> </td>
+
+    </tr>
+
+    <tr>
+    
+    <td> <input type= "submit" value = "send" /> </td>
+
+    </tr>
+
+    <tr>
+    
+    <td>Yaşadığınız Şehir</td>
+    <td> 
+    <select name = "city">
+
+    <option value = "istanbul">İstanbul</option>
+    
+    
+    </select>
+    </td>
+
+    </tr>
+
+    </table>
+
+---------------------------------------------------------------------------------------------------------
 
 
     
