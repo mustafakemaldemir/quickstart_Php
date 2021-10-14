@@ -78,6 +78,7 @@
 $okul = "Ankara Uni";
 $okul1 ="$okul Bilgisayar Mühendisliği";
 $okul2 = 2;
+$okul3 = 3;
 
 echo "<br>".$okul1;
 
@@ -116,6 +117,14 @@ else
         }
     }
 }
+
+//strval($okul3); //sayısal değşikeni stringe çevirir.
+//intval($okul3); //sayısal değşikeni stringe çevirir.
+//floatval($okul3); //sayısal değşikeni stringe çevirir.
+echo "<br>".gettype($okul3)." ".$okul3;
+echo "<br>".gettype(strval($okul3))." ".$okul3;
+
+
 
 
 
