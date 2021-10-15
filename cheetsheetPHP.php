@@ -28,6 +28,7 @@
     echo strlen(utf8_decode($degisken_name)); //dizi içeriğinde boşluklar ile beraber eleman sayısı.
     echo str_replace("search_kelime","replace_kelime",$degisken_name); //stringte belirli kelimeyi değiştir.
 
+    var_dump($dizi); //array içeriğinin nasıl olduğunu gösterir.
     $dizi = array("mk","d","1","2"); //dizi tanımlaması.
     $dizi_1["first_element"] = "Ankara" ;
     $dizi = array("MKD" => "9", "TY" => "11"); // dictionary tarzında array ataması.
@@ -36,11 +37,21 @@
     echo count ($dizi); //dizi elaman sayısı.
     sort($dizi); //otomatik sıralama (smallest number to largest number).
     rsort($dizi); //otomatik sıralama (largest number to smallest number).
+    asort($dizi); // anahtar yapısını bozmadan küçükten büyüğe sıralama yapıyor.
+    arsort($dizi); //anahtar yapısnı bozmadan büyükten küçüğe doğru sıralama.
+    krsort($dizi); // anahtara göre büyükten küçüğe doğru sıralama yapıyor.
     echo max($dizi); //en büyük eleman.
     echo min($dizi); //en küçük eleman.
     in_array(20,$dizi); // dizide aranan elaman kaç tane var?
     implode ("/",$dizi); //dizi elemanlarını belirtilen araç ile birleştirir.
-    
+
+    $array_name = array();
+
+    for ($b = 0 ; $b<=5 ; $b++)
+    {
+        $a = array_push($array_name,$atilacak_deger); // arraya değer pushlaması
+    }
+
     $x = array //d_array
     (
         array("a","b","c"),
@@ -61,7 +72,7 @@
     {
         echo $b."nin sayısal karşılığı = ".$c."dir"."<br>";
     }
-
+    
     ==,<,>,<=,>=,!=,and,or (karşılaştırma kipleri)
     if ($sorgu_deger == 0) {} // karşılaştırma koşulu
     else if ($sorgu_deger == 0) {}
@@ -214,6 +225,17 @@
     //floatval($okul3); //sayısal değşikeni stringe çevirir.
     echo "<br>".gettype($okul3)." ".$okul3;
     echo "<br>".gettype(strval($okul3))." ".$okul3;
+
+    trim(); //verinin sağında solunda boşlukları silemeye yarar.
+    rtrim(); //sağ boşluk silme
+    ltrim(); //sol boşluk silme
+
+    is_string();
+    is_int();
+    is_float;
+
+    ||,&&,! //mantıksal operatörler
+
 
 
 

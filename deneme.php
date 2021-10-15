@@ -19,7 +19,7 @@
 
 <h1> İletişim Formu </h1>
 
-<form action = "iletisim.php" method = "get">
+<form action = "iletisim.php" method = "POST">
 
 <table cellpadding = "5" cellspacing = "5">
 
@@ -30,10 +30,43 @@
 
     </tr>
 <!--  -------------------------------------------------------   -->
+
     <tr>
 
     <td><b>Surname : </b></td>
     <td> <input type = "text" name ="surname"/> </td>
+
+    </tr>
+
+<!--  -------------------------------------------------------   -->
+
+    <tr>
+
+    <td><b>Password : </b></td>
+    <td><input type = "password" name= "password"/></td>
+    
+    </tr>
+
+<!--  -------------------------------------------------------   -->
+
+    <tr>
+
+    <td><b>E-mail : </b></td>
+    <td> <input type = "text" name ="email"/> </td>
+
+    </tr>
+
+<!--  -------------------------------------------------------   -->
+
+    <tr>
+
+    <td><b>Sex Type : </b></td>
+    <td>
+
+        <input type = "radio" name= "sex" value="Male"/>Male<br>
+        <input type = "radio" name= "sex" value="Female"/>Female
+
+    </td>
 
     </tr>
 
@@ -43,6 +76,7 @@
     
     <td><b>City of residance :</b></td>
     <td> 
+
     <select name = "city">
 
     <option value = "istanbul">İstanbul</option>
@@ -52,6 +86,41 @@
     
     
     </select>
+
+    </td>
+
+    </tr>
+
+<!--  -------------------------------------------------------   -->
+
+    <tr>
+    
+    <td><b>Yemekler :</b></td>
+    <td> 
+    <select name="menu" multiple>
+
+    <option selected="" value="none">Hiçbiri</option>
+
+    <optgroup label="Çorbalar">
+    <option value="c1">Tarhana</option>
+    <option value="c2">Ezogelin</option>
+    <option value="c3">İşkembe</option>
+    </optgroup>
+
+    <optgroup label="Yemekler">
+    <option value="y1">İmambayıldı</option>
+    <option value="y2">Sultanbeğendi</option>
+    <option value="y3">Kadınbudu</option>
+    </optgroup>
+
+    <optgroup label="Tatlılar">
+    <option value="t1">Kazandibi</option>
+    <option value="t2">Tavukgöğsü</option>
+    <option value="t3">Keşkül</option>
+    </optgroup>
+
+    </select>
+
     </td>
 
     </tr>
@@ -65,36 +134,43 @@
 
     </tr>
 
-<!--  -------------------------------------------------------   -->    
+<!--  -------------------------------------------------------   -->
 
     <tr>
+
+    <td><b>Membership Language :</b> </td>
+    <td>
+
+        <input type = "checkbox" name = "checkbox_1" value = "HTML" checked= "on"/>HTML<br>
+        <input type = "checkbox" name = "checkbox_2" value = "PHP"/>PHP<br>
+        <input type = "checkbox" name = "checkbox_3" value = "C++"/>C++<br>
+        <input type = "checkbox" name = "checkbox_4" value = "PYTHON"/>PYTHON
+
+    </td>
     
-    <td> <input type= "submit" value = "send" /> </td>
+    </tr>
+
+<!--  -------------------------------------------------------   -->
+
+    <tr>
+
+    <td><input type = "file" name = "file"/></td>
 
     </tr>
 
-<!--  -------------------------------------------------------   -->    
+<!--  -------------------------------------------------------   -->
+
+    <tr>
+    
+    <td>
+        <input type= "submit" value = "send" /> 
+        <input type= "reset" value = "reset" />
+    </td>
+
+    </tr>
+
+<!--  -------------------------------------------------------   -->
 
 </table>
 
 </form>
-
-<?php
-
-    $a = array
-    (
-        "bir" => 1,
-        "iki" => 2,
-        "üç" => 3,
-    );
-
-    foreach($a as $b => $c)
-    {
-        echo $b." değerinin sayısal karşılığı = ".$c." dir"."<br>";
-    }
-
-
-
-
-
-?>
