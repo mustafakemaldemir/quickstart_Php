@@ -79,4 +79,22 @@
 
 </form>
 
-<?php?>
+<?php
+
+    $a = array
+    (
+        "bir" => 1,
+        "iki" => 2,
+        "üç" => 3,
+    );
+
+    foreach($a as $b => $c)
+    {
+        echo $b." değerinin sayısal karşılığı = ".$c." dir"."<br>";
+    }
+
+
+
+
+
+?>

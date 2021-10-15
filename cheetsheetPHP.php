@@ -15,6 +15,7 @@
 
     echo site_adi;
     $sayi = 25; // değer atama.
+    $s_sayi  = (string) $sayi; // string tipine değiştirerek değer atama.
 
     define('birth_day','1998'); // sabit değişken tanımlama.
     echo birth_day;
@@ -28,6 +29,8 @@
     echo str_replace("search_kelime","replace_kelime",$degisken_name); //stringte belirli kelimeyi değiştir.
 
     $dizi = array("mk","d","1","2"); //dizi tanımlaması.
+    $dizi_1["first_element"] = "Ankara" ;
+    $dizi = array("MKD" => "9", "TY" => "11"); // dictionary tarzında array ataması.
     echo $dizi[0]; //dizi elaman basımı.
     print_r($dizi); //dizi elemanlarını indis numaraları ile verir.
     echo count ($dizi); //dizi elaman sayısı.
@@ -36,12 +39,35 @@
     echo max($dizi); //en büyük eleman.
     echo min($dizi); //en küçük eleman.
     in_array(20,$dizi); // dizide aranan elaman kaç tane var?
-    implode ("/",$dizi); //dizi elemanlarını belirtilen araç ile birleştirir.    
+    implode ("/",$dizi); //dizi elemanlarını belirtilen araç ile birleştirir.
+    
+    $x = array //d_array
+    (
+        array("a","b","c"),
+        array("d","e","f"),
+        array("g","h","f"),
+    );
+
+    echo &x[0][1];
+
+    $a = array
+    (
+        "bir" => 1,
+        "iki" => 2,
+        "üç" => 3,
+    );
+
+    foreach($a as $b => $c)
+    {
+        echo $b."nin sayısal karşılığı = ".$c."dir"."<br>";
+    }
 
     ==,<,>,<=,>=,!=,and,or (karşılaştırma kipleri)
     if ($sorgu_deger == 0) {} // karşılaştırma koşulu
     else if ($sorgu_deger == 0) {}
     else {}
+
+    $x = ($a == 20) ? "eşit_değer" : "farklı_değer";
 
     switch($deger)
     {
@@ -142,6 +168,8 @@
     $okul1 ="$okul Bilgisayar Mühendisliği";
     $okul2 = 2;
     $okul3 = 3;
+    $okul4 = true;
+    $okul5 = false;
     
     echo "<br>".$okul1;
     

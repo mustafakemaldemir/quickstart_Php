@@ -1,0 +1,157 @@
+https://insights.stackoverflow.com/survey/2021
+
+PROGRAMING SCRIPT AND MARKUP LANGUAGES
+
+JavaScript	                    68.62%
+HTML/CSS	                    55.9%
+SQL 	                        50.73%
+Python                          41.53%
+TypeScript 	                    36.42%
+Node.js 	                    36.19%
+Java 	                        34.51%
+C# 	                            29.81%
+Bash/Shell 	                    27.63%
+PHP 		                    22.54%
+C++ 		                    19.94%
+C 		                        16.64%
+PowerShell 	                    10.96%
+Go 		                        10.51%
+Kotlin 		                    9.09%
+Ruby 		                    7.89%
+Rust 		                    6.4%
+Dart 		                    5.97%
+Swift 		                    5.64%
+VBA 		                    4.09%
+Assembly 	                    4.07%
+Groovy 		                    3.64%
+R 		                        3.48%
+Objective-C 	                3.33%
+Matlab 		                    3.17%
+Scala 		                    3.06%
+Perl 		                    2.42%
+Delphi 		                    2.36%
+Clojure 	                    2.25%
+Elixir 		                    2.09%
+Haskell 	                    1.7%
+LISP 		                    1.12%
+F# 		                        1.06%
+Erlang 		                    0.87%
+Julia 		                    0.86%
+Crystal 	                    0.58%
+COBOL 		                    0.49%
+APL 		                    0.47%
+
+--------------------------------------------------------
+DATABASES
+
+MySQL 			                48.19%
+PostgreSQL 		                44.08%
+SQLite 			                30.86%
+Microsoft SQL Server 	        29.43%
+MongoDB 		                28.03%
+Redis 			                24.51%
+MariaDB 		                17.14%
+Firebase 		                15.89%
+Elasticsearch 		            15.72%
+Oracle 			                12.89%
+DynamoDB 		                8.7%
+Cassandra 		                2.91%
+IBM DB2 		                2.14%
+Couchbase 		                1.72%
+
+---------------------------------------------------------
+CLOUD PLATFORMS
+
+AWS 				            59.11%
+Microsoft Azure 		        32.49%
+Google Cloud Platform 		    29.66%
+Heroku 				            21.3%
+DigitalOcean 			        18.26%
+IBM Cloud or Watson 		    2.09%
+Oracle Cloud Infrastructure 	1.49%
+
+-----------------------------------------------------------
+
+WEB FRAMEWORKS
+
+React.js 	                    41.4%
+jQuery 		                    34.52%
+Angular 	                    26.23%
+Express 	                    23.6%
+ASP.NET Core     	            20.3%
+Vue.js 		                    20.09%
+ASP.NET 	                    17.36%
+Spring 		                    16.48%
+Flask 		                    13.79%
+Django 		                    13.02%
+Angular.js 	                    12.71%
+Laravel 	                    10.89%
+Ruby on Rails 	                7.89%
+Gatsby 		                    4.27%
+Symfony 	                    4.25%
+FastAPI 	                    3.87%
+Svelte 		                    2.59%
+Drupal 		                    2.46%
+
+------------------------------------------------------
+
+OTHER FRAMWORKS AND LIBRARIES
+
+.NET Framework 		            37.1%
+.NET Core / .NET 5 	            35.26%
+NumPy 			                26.81%
+Pandas 			                23.56%
+React Native 		            16.48%
+TensorFlow 		                14.1%
+Flutter 		                13.35%
+Cordova 		                8.67%
+Keras 			                8.44%
+Qt 			                    8.38%
+Torch/PyTorch 		            8.34%
+Apache Spark 		            6.38%
+Hadoop 			                4.62%
+---------------------------------------------------
+OTHER TOOLS
+
+Git 		                    94.41%
+Docker 		                    55.06%
+Yarn 		                    20.19%
+Kubernetes 	                    19.53%
+Terraform 	                    8.67%
+Ansible 	                    8.29%
+Unity 3D 	                    7.03%
+Xamarin 	                    4.17%
+Unreal Engine 	                2.29%
+Puppet 		                    1.76%
+Chef 		                    1.39%
+Flow 		                    1.34%
+Deno 		                    1.3%
+Pulumi 		                    0.54%
+
+------------------------------------------------------
+
+IDEs
+
+Visual Studio Code 	            71.07%
+Visual Studio 		            32.92%
+IntelliJ 		                29.69%
+Notepad++ 		                29.09%
+Vim 			                24.82%
+Android Studio 		            21.76%
+Sublime Text 		            19.66%
+PyCharm 		                16.27%
+Eclipse 		                14.93%
+Xcode 			                12.66%
+Atom 			                10.31%
+IPython/Jupyter 	            9.95%
+Webstorm 		                9.15%
+PHPStorm 		                8.55%
+NetBeans 		                6.75%
+Emacs 			                5.25%
+Neovim 			                4.49%
+Rider 			                4.42%
+RStudio 		                2.59%
+RubyMine 		                1.76%
+TextMate 		                0.83%
+
+------------------------------------------------------
