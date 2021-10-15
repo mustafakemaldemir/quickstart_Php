@@ -138,11 +138,60 @@
 ---------------------------------------------------------------------------------------------------------
     DocumentRoot xampp config ayarlarında dosya dizini değiştirme.
 
+    $okul = "Ankara Uni";
+    $okul1 ="$okul Bilgisayar Mühendisliği";
+    $okul2 = 2;
+    $okul3 = 3;
+    
+    echo "<br>".$okul1;
+    
+    echo "<br>".gettype($okul1);
+    
+    settype ($okul,"int"); // değişken tipini değiştirme
+    
+    echo "<br>".gettype($okul); //değişken tipini görme
+    
+    unset($okul); //değişkeni hafızadan silme
+    
+    //echo "<br>".$okul;
+    
+    if (empty($okul2))
+    {
+        echo "<br>"."okul2 değişkeninin değeri boş";
+    }
+    
+    else
+    {
+        echo "<br>"."okul2 değişken değeri var";
+    
+        if (is_string($okul2))
+        {
+            echo "<br>"."Girilen değer stringtir.";
+        }
+        else
+        {
+            if(is_int($okul2))
+            {
+                echo "<br>"."Girilen değer intigerdır";
+            }
+            else
+            {
+                echo "<br>"."Girilen değer int değildir";
+            }
+        }
+    }
+    
+    //strval($okul3); //sayısal değşikeni stringe çevirir.
+    //intval($okul3); //sayısal değşikeni stringe çevirir.
+    //floatval($okul3); //sayısal değşikeni stringe çevirir.
+    echo "<br>".gettype($okul3)." ".$okul3;
+    echo "<br>".gettype(strval($okul3))." ".$okul3;
+
+
 
 
 
 
     
     */
-
 ?>
