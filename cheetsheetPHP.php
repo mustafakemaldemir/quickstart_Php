@@ -126,6 +126,13 @@
     <?php include 'footer.php'; ?> // sayfaları ilave footer ekleme (kütüphane ekleme).
     <?php include 'sidebar.php'; ?> // sayfaları ilave sidebar ekleme (kütüphane ekleme).
 
+    function deneme ($a) 
+    {
+        return $_POST[a];
+    }
+
+    $b = deneme ("deger"); // formdan veriyi fonksiyon ile almak.
+    
 ------------------------------FORM-----------------------------------------------------------------------
     <table cellpadding = "5" cellspacing = "5">
 

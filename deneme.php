@@ -19,7 +19,7 @@
 
 <h1> İletişim Formu </h1>
 
-<form action = "iletisim.php" method = "POST">
+<form action = "iletisim.php" method = "POST" enctype = "multipart/form-data">
 
 <table cellpadding = "5" cellspacing = "5">
 
