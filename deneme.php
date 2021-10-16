@@ -154,6 +154,7 @@
 
     <tr>
 
+    <td><b>Upload Image :</b> </td>
     <td><input type = "file" name = "file"/></td>
 
     </tr>

@@ -132,6 +132,11 @@
     }
 
     $b = deneme ("deger"); // formdan veriyi fonksiyon ile almak.
+
+    include("header_file.php"); // bir php dosyasını kütüphane gibi dahil etmeye yarar. Hatalı durumlarda çağırılan sayfanın çalışması devam eder.
+    require("header_file.php"); // bu tarzda çağırım yapmak hata yüzünden tüm sayfa hata verir. 
+    include_once("header_file.php"); // bir kereliğne bir php dosyasını kütüphane gibi dahil etmeye yarar.
+    require_once("header_file.php");
     
 ------------------------------FORM-----------------------------------------------------------------------
     <table cellpadding = "5" cellspacing = "5">
@@ -242,13 +247,19 @@
     is_float;
 
     ||,&&,! //mantıksal operatörler
+---------------------------------------------------------------------------------------------------------    
 
+    opendir(); //dosya açmak
+    readdir(); //dosyayı okumak
+    closedir(); //dosyayı kapatmak
 
+    $file_path = "files/";
+    $open_file = opendir($file_path);
 
-
-
-
-
+    while($x = readdir($open_file))
+    {
+        echo "<img src = 'file_path/{$x}'/>";
+    }
     
     */
 ?>
