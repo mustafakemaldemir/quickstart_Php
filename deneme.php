@@ -80,7 +80,7 @@
     <select name = "city">
 
     <option value = "istanbul">İstanbul</option>
-    <option value = "ankara">Ankara</option>
+    <option value = "ankarar">Ankara</option>
     <option value = "eskişehir">Eskişehir</option>
     <option value = "izmir">İzmir</option>
     
@@ -141,10 +141,10 @@
     <td><b>Membership Language :</b> </td>
     <td>
 
-        <input type = "checkbox" name = "checkbox_1" value = "HTML" checked= "on"/>HTML<br>
-        <input type = "checkbox" name = "checkbox_2" value = "PHP"/>PHP<br>
-        <input type = "checkbox" name = "checkbox_3" value = "C++"/>C++<br>
-        <input type = "checkbox" name = "checkbox_4" value = "PYTHON"/>PYTHON
+        <input type = "checkbox" name = "languages[]" value = "HTML" checked= "on"/>HTML<br>
+        <input type = "checkbox" name = "languages[]" value = "PHP"/>PHP<br>
+        <input type = "checkbox" name = "languages[]" value = "C++"/>C++<br>
+        <input type = "checkbox" name = "languages[]" value = "PYTHON"/>PYTHON
 
     </td>
     

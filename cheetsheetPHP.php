@@ -6,7 +6,7 @@
     echo __LINE__; bukodun kaçıncı satırda oluğu.
     echo PHP_VERSION; //php version
 
-    rand (1,100); // rastgale sayı üretme.
+    $s1 = rand (1,100); // rastgale sayı üretme.
 
     echo "merhaba PHP<br>"; //<br> satır altı.
     echo "merhaba PHP"."<br>"; //aynı şekilde . birleştirmeye yarıyor.
