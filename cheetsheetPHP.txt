@@ -1,6 +1,5 @@
 <?php
 
-    /*
     phpinfo();
     echo __FILE__; //dosyanın bulunduğu dizini bastırır.
     echo __LINE__; bukodun kaçıncı satırda oluğu.
@@ -137,6 +136,10 @@
     require("header_file.php"); // bu tarzda çağırım yapmak hata yüzünden tüm sayfa hata verir. 
     include_once("header_file.php"); // bir kereliğne bir php dosyasını kütüphane gibi dahil etmeye yarar.
     require_once("header_file.php");
+
+    trim($x); // string değişkende eğer değişken değeri başında ve sonunda boşluk varsa boşukların silinmesine yarar.
+
+    nl2br($x); // string değer değişken içerisindeki alt satıra geçme işlemini algılar ve ona göre alt satıra geçmiş şekilde çıktı bastırır.   
     
 ------------------------------FORM-----------------------------------------------------------------------
     <table cellpadding = "5" cellspacing = "5">
@@ -244,7 +247,7 @@
 
     is_string();
     is_int();
-    is_float;
+    is_float();
 
     ||,&&,! //mantıksal operatörler
 ---------------------------------------------------------------------------------------------------------    
@@ -260,6 +263,21 @@
     {
         echo "<img src = 'file_path/{$x}'/>";
     }
+----------------------DATABASE CONNECTİON AND DB CODES---------------------------------------------------------
+
+try
+{
+    $db_connection = new PDO ("mysql:host = localhost; dbname = php_project; charset = utf8;" , "root" ,"");
+
+}catch(PDOException $message)
+{
+    echo $message -> getmessage();
+}
+........
+$db_connection = null; // bağlantıyı 
+
+----------------------------------------------------------------------------------------------------------------    
     
-    */
+    
+*/
 ?>

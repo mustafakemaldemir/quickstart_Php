@@ -70,12 +70,44 @@
 
     <select name = "city">
 
-    <option value = "istanbul">İstanbul</option>
-    <option value = "ankarar">Ankara</option>
-    <option value = "eskişehir">Eskişehir</option>
-    <option value = "izmir">İzmir</option>
+    <option value = "İstanbul">İstanbul</option>
+    <option value = "Ankara">Ankara</option>
+    <option value = "Eskişehir">Eskişehir</option>
+    <option value = "İzmir">İzmir</option>
     
     
+    </select>
+
+    </td>
+
+    </tr>
+<!--  -------------------------------------------------------   -->
+    <tr>
+    
+    <td><b>Member's University :</b></td>
+    <td> 
+    <select name="member_university" multiple>
+
+    <option selected="" value="none">Hiçbiri</option>
+
+    <optgroup label="ANKARA">
+    <option value="Ankara Üniversitesi">Ankara Üniversitesi</option>
+    <option value="Ortadoğu Teknik Üniversitesi">Ortadoğu Teknik Üniversitesi</option>
+    <option value="Hacettepe Üniversitesi">Hacettepe Üniversitesi</option>
+    </optgroup>
+
+    <optgroup label="ESKİŞEHİR">
+    <option value="Anadolu Üniversitesi">Anadolu Üniversitesi</option>
+    <option value="Eskişehir Osmangazi Üniversitesi">Eskişehir Osmangazi Üniversitesi</option>
+    <option value="Eskişehir Teknik Üniversitesi">Eskişehir Teknik Üniversitesi</option>
+    </optgroup>
+
+    <optgroup label="İSTANBUL">
+    <option value="Boğaziçi Üniversitesi">Boğaziçi Üniversitesi</option>
+    <option value="Yıldız Teknik Üniversitesi">Yıldız Teknik Üniversitesi</option>
+    <option value="İstanbul Teknik Üniversitesi">İstanbul Teknik Üniversitesi</option>
+    </optgroup>
+
     </select>
 
     </td>
@@ -96,39 +128,7 @@
     </td>
     
     </tr>
-<!--  -------------------------------------------------------   -->
-    <tr>
-    
-    <td><b>Yemekler :</b></td>
-    <td> 
-    <select name="menu" multiple>
-
-    <option selected="" value="none">Hiçbiri</option>
-
-    <optgroup label="Çorbalar">
-    <option value="c1">Tarhana</option>
-    <option value="c2">Ezogelin</option>
-    <option value="c3">İşkembe</option>
-    </optgroup>
-
-    <optgroup label="Yemekler">
-    <option value="y1">İmambayıldı</option>
-    <option value="y2">Sultanbeğendi</option>
-    <option value="y3">Kadınbudu</option>
-    </optgroup>
-
-    <optgroup label="Tatlılar">
-    <option value="t1">Kazandibi</option>
-    <option value="t2">Tavukgöğsü</option>
-    <option value="t3">Keşkül</option>
-    </optgroup>
-
-    </select>
-
-    </td>
-
-    </tr>
-<!--  -------------------------------------------------------   -->
+<!--  -------------------------------------------------------   -->    
     <tr>
 
     <td><b>Message :</b> </td>

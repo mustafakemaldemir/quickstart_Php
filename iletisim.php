@@ -20,24 +20,7 @@ else if(isset($_POST['sex']))
 
 $c_city = $_POST["city"];
 
-if(isset($_POST['languages'])) 
-{
-    $languages = $_POST['languages'];
- 
-    echo 'Seçtiğiniz programlama dilleri: <br/>';
-     
-    foreach($languages as $language)
-    {
-        echo ' * ' . $language . ' <br/>';
-    }
-}
-
-else 
-{
-    echo 'Hiç programlama dili seçmediniz.';
-}
-
-print_r($languages);
+$m_member_university = $_POST["member_university"];
 
 $m_message = $_POST["message"];
 
@@ -82,7 +65,28 @@ else
 }
 
 echo "İsminiz : ".$n_name."<br>"."Soyadınız : ".$s_surname."<br>"."E-mail adresiniz : "
-.$e_email."<br>"."Cinsiyet : ".$sex."<br>"."Şehriniz : ".$c_city."<br>"."Mesajınız : ".$m_message;
+.$e_email."<br>"."Cinsiyet : ".$sex."<br>"."Şehriniz : ".$c_city."<br>"."Üniversiteniz : ".$m_member_university;
+
+if(isset($_POST['languages'])) 
+{
+    $languages = $_POST['languages'];
+    
+    echo "<br>"."Seçtiğiniz programlama dilleri : ";
+     
+    foreach($languages as $language)
+    {
+        echo "<br>". ' * ' . $language;
+    }
+}
+
+else 
+{
+    echo "<br>".'Hiç programlama dili seçmediniz.';
+}
+
+//print_r($languages);
+
+echo "<br>"."Mesajınız : ".$m_message;
 
 echo "<br>"."<a href='deneme.php'>Geri</a>";
 
