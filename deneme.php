@@ -23,6 +23,7 @@
 
 <table cellpadding = "5" cellspacing = "5">
 
+<!--  -------------------------------------------------------   -->
     <tr>
 
     <td><b>Name : </b></td>
@@ -30,34 +31,27 @@
 
     </tr>
 <!--  -------------------------------------------------------   -->
-
     <tr>
 
     <td><b>Surname : </b></td>
     <td> <input type = "text" name ="surname"/> </td>
 
     </tr>
-
 <!--  -------------------------------------------------------   -->
-
-    <tr>
-
-    <td><b>Password : </b></td>
-    <td><input type = "password" name= "password"/></td>
-    
-    </tr>
-
-<!--  -------------------------------------------------------   -->
-
     <tr>
 
     <td><b>E-mail : </b></td>
     <td> <input type = "text" name ="email"/> </td>
 
     </tr>
-
 <!--  -------------------------------------------------------   -->
+    <tr>
 
+    <td><b>Password : </b></td>
+    <td><input type = "password" name= "password"/></td>
+    
+    </tr>
+<!--  -------------------------------------------------------   -->
     <tr>
 
     <td><b>Sex Type : </b></td>
@@ -67,11 +61,8 @@
         <input type = "radio" name= "sex" value="Female"/>Female
 
     </td>
-
     </tr>
-
-<!--  -------------------------------------------------------   -->    
-
+<!--  -------------------------------------------------------   -->
     <tr>
     
     <td><b>City of residance :</b></td>
@@ -90,9 +81,22 @@
     </td>
 
     </tr>
-
 <!--  -------------------------------------------------------   -->
+    <tr>
 
+    <td><b>Membership Language :</b> </td>
+
+    <td>
+
+        <input type = "checkbox" name = "languages[]" value = "HTML" checked= "on"/>HTML<br>
+        <input type = "checkbox" name = "languages[]" value = "PHP"/>PHP<br>
+        <input type = "checkbox" name = "languages[]" value = "C++"/>C++<br>
+        <input type = "checkbox" name = "languages[]" value = "PYTHON"/>PYTHON
+
+    </td>
+    
+    </tr>
+<!--  -------------------------------------------------------   -->
     <tr>
     
     <td><b>Yemekler :</b></td>
@@ -124,43 +128,21 @@
     </td>
 
     </tr>
-
-<!--  -------------------------------------------------------   -->    
-
+<!--  -------------------------------------------------------   -->
     <tr>
 
     <td><b>Message :</b> </td>
     <td> <textarea cols="30" rows="5" name="message"></textarea> </td>
 
     </tr>
-
 <!--  -------------------------------------------------------   -->
-
-    <tr>
-
-    <td><b>Membership Language :</b> </td>
-    <td>
-
-        <input type = "checkbox" name = "languages[]" value = "HTML" checked= "on"/>HTML<br>
-        <input type = "checkbox" name = "languages[]" value = "PHP"/>PHP<br>
-        <input type = "checkbox" name = "languages[]" value = "C++"/>C++<br>
-        <input type = "checkbox" name = "languages[]" value = "PYTHON"/>PYTHON
-
-    </td>
-    
-    </tr>
-
-<!--  -------------------------------------------------------   -->
-
     <tr>
 
     <td><b>Upload Image :</b> </td>
     <td><input type = "file" name = "file"/></td>
 
     </tr>
-
 <!--  -------------------------------------------------------   -->
-
     <tr>
     
     <td>
@@ -169,7 +151,6 @@
     </td>
 
     </tr>
-
 <!--  -------------------------------------------------------   -->
 
 </table>
